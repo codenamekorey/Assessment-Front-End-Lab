@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* NaV*/
+nav {
+    width: 100%;
+    background-color: white;
+    padding: 40px;
+}
+
+.nav-ol {
+    width: 50%;
+    margin: 0 25%;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    border-bottom: 1px blue solid;
+}
+
+.nav-li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav-a {
+    color: blue;
+    text-shadow: 
+    0 0 7px blue,
+    0 0 10px blue,
+    0 0 21px blue,
+    0 0 42px white,
+    0 0 82px white,
+    0 0 92px white;
+}
+/*Header*/
+header {
+    width: 100%;
+    height: 500px;
+    background-image: url(/img/Dallas.jpeg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-h1 {
+    font-size: 90px;
+    color: blue;
+    text-shadow: 
+    0 0 7px blue,
+    0 0 10px blue,
+    0 0 21px blue;
+}
+.img-wrap{
+    width: 20%;
+}
+.img {
+    width: 50%;
+    height: 25%;
+    border-radius: 50%;
+}
+
+/*Wrapper*/
+.wrapper {
+    width: 100%;
+    height: 400px;
+}
+/*Skill*/
+.skill-w {
+    background-color: white;
+}
+
+.inside-w-1 {
+    height: 100%;
+    width: 70%;
+    margin: 0 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-ol {
+    height: 60%;
+    margin: 20% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skill-li {
+    list-style: none;
+    font-size: 20px;
+    color: blue;
+}
+
+#li-title-skill {
+    color: black;
+    font-size: 30px;
+}
+/*Intrest*/
+.intrest-w {
+    background-color: blue;
+    display: flex;
+}
+.inside-w-2 {
+    width: 33%;
+    height: 96%;
+    margin: 2% 0;
+}
+/*sports*/
+.sports {
+   text-align: center;
+}
+.sport-list {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+p {
+    margin-bottom: 10px;
+}
+#sport {
+    padding: 20px;
+    border-radius: 30px;
+}
+/*games*/
+.games {
+    text-align: center;
+ }
+ .game-list {
+     height: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     margin-bottom: 20px;
+ }
+ p {
+     margin-bottom: 10px;
+ }
+ #game {
+     padding: 20px;
+     border-radius: 30px;
+ }
+ /*other*/
+ .other {
+    text-align: center;
+ }
+ .other-list {
+     height: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     margin-bottom: 20px;
+ }
+ p {
+     margin-bottom: 10px;
+     color: white;
+ }
+ #other {
+     padding: 20px;
+     border-radius: 30px;
+ }
+/*Intrest H3*/
+h3{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    color: white;
+    background-color: red;
+}
+/*Career*/
+.career-w {
+    background-color: white;
+}
+
+.inside-career {
+    width: 80%;
+    height: 100%;
+    margin: 0 10%;
+    text-align: center;
+}
+h2{
+    color: blue;
+    font-size: 50px;
+}
+.h2 {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-box{
+    width: 100%;
+    height: 70%;
+    background-color: blue;
+}
+
+.text-box-p {
+    color: white;
+    font-size: 30px;
+   
+}
